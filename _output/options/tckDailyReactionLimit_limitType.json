@@ -1,0 +1,12 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "option_template_tckDailyReactionLimit_limitType",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "global",
+    "relations": {
+        "tckDailyReactionLimit": 100
+    }
+}

@@ -1,0 +1,10 @@
+<xf:radiorow name="{$inputName}" value="{$option.option_value}"
+			 label="{$option.title}"
+			 hint="{$hintHtml}"
+			 explain="{$explainHtml}"
+			 html="{$listedHtml}">
+	<!--[XF:TickTackk/DailyReactionLimit:top]-->
+	<xf:option value="global" label="{{ phrase('tckDailyReactionLimit_limit_type.global') }}" />
+	<xf:option value="content" label="{{ phrase('tckDailyReactionLimit_limit_type.content') }}" />
+	<!--[XF:TickTackk/DailyReactionLimit:bottom]-->
+</xf:radiorow>

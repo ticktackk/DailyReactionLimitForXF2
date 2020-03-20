@@ -1,0 +1,9 @@
+{
+    "event_id": "addon_post_install",
+    "execute_order": 10,
+    "callback_class": "TickTackk\\DailyReactionLimit\\Listener",
+    "callback_method": "addonPostInstall",
+    "active": true,
+    "hint": "XFRM",
+    "description": "Called when the post-install code for the resource manager add-on has been run."
+}
