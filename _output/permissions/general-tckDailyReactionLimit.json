@@ -1,0 +1,6 @@
+{
+    "permission_type": "integer",
+    "interface_group_id": "generalPermissions",
+    "display_order": 19000,
+    "depend_permission_id": ""
+}
