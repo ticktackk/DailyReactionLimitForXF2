@@ -4,13 +4,10 @@ namespace TickTackk\DailyReactionLimit\XF\Entity;
 
 use XF\Entity\Post as PostEntity;
 use XF\Entity\ProfilePost as ProfilePostEntity;
-use XF\Entity\ProfilePostComment as ProfilePostCommentEntity;
 use XF\Mvc\Entity\Entity;
-use XF\Mvc\Entity\Structure as EntityStructure;
 use XFMG\Entity\Album as AlbumEntity;
 use XFMG\Entity\Comment as CommentEntity;
 use XFMG\Entity\MediaItem as MediaItemEntity;
-use XFRM\Entity\ResourceItem as ResourceItemEntity;
 use XFRM\Entity\ResourceUpdate as ResourceUpdateEntity;
 
 /**
