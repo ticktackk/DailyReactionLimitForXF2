@@ -34,7 +34,6 @@ class Reaction extends XFCP_Reaction
      */
     public function findReactionsByReactionUserIdTodayForContentType($reactionUserId, string $contentType) : Finder
     {
-        return $this->findReactionsByReactionUserIdToday($reactionUserId)
-            ->where('content_type', $contentType);
+        return $this->findReactionsByReactionUserIdToday($reactionUserId)->where('content_type', $contentType);
     }
 }
