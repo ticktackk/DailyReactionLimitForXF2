@@ -35,10 +35,8 @@ class Listener
      * 
      * @param AddOn       $addOn          The AddOn object for the add-on being installed.
      * @param AddOnEntity $installedAddOn The newly created add-on entity.
-     * @param array       $json           An array decoded from the add-on's addon.json
-     *                                         file.
-     * @param array       $stateChanges   An array for storing state changes such as
-     *                                         post-install controller redirects.
+     * @param array       $json           An array decoded from the add-on's addon.json file.
+     * @param array       $stateChanges   An array for storing state changes such as post-install controller redirects.
      */
     public static function addonPostInstall(AddOn $addOn, AddOnEntity $installedAddOn, array $json, array $stateChanges) : void
     {

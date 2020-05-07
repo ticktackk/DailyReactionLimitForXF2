@@ -3,7 +3,6 @@
 namespace TickTackk\DailyReactionLimit;
 
 use XF\AddOn\AbstractSetup;
-use XF\AddOn\AddOn;
 use XF\AddOn\StepRunnerInstallTrait;
 use XF\AddOn\StepRunnerUninstallTrait;
 use XF\AddOn\StepRunnerUpgradeTrait;
