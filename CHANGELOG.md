@@ -1,6 +1,10 @@
 CHANGELOG
 ==========================
 
+## 1.0.1 (`1000170`)
+
+- **Fix:** When applying default permissions exception is thrown if XFMG is installed and XFRM is not (#3)
+
 ## 1.0.0 (`1000070`)
 
 No changes other than being marked as stable.
