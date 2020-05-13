@@ -58,7 +58,7 @@ class Setup extends AbstractSetup
     public function applyDefaultAddOnPermissions(string $addOnId) : bool
     {
         $addOns = $this->app()->addOnManager()->getInstalledAddOns();
-        if (!\array_key_exists('XFMG', $addOns))
+        if (!\array_key_exists($addOnId, $addOns))
         {
             return false;
         }
