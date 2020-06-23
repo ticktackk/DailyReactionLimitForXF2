@@ -1,6 +1,10 @@
 CHANGELOG
 ==========================
 
+## 1.0.2 (`1000270`)
+
+- **Fix:** Conversation daily reaction limit permission is of wrong type (#5)
+
 ## 1.0.1 (`1000170`)
 
 - **Fix:** When applying default permissions exception is thrown if XFMG is installed and XFRM is not (#3)
