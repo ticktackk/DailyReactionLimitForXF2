@@ -1,6 +1,10 @@
 CHANGELOG
 ==========================
 
+## 1.0.3 (`1000370`)
+
+- **Fix:** Profile post and profile post comment permissions is not applied (#7)
+
 ## 1.0.2 (`1000270`)
 
 - **Fix:** Conversation daily reaction limit permission is of wrong type (#5)
