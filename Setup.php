@@ -25,6 +25,33 @@ class Setup extends AbstractSetup
         $this->applyDefaultPermissions();
     }
 
+    public function upgrade1000370Step1() : void
+    {
+        $db = $this->db();
+
+        // first we delete the permission entries that are added on clean install...
+        $db->delete('xf_permission_entry', 'permission_group_id = ? AND permission_id = ?', [
+            'profilePost',
+            'tckDailyReactionLimit'
+        ]);
+
+        $db->delete('xf_permission_entry', 'permission_group_id = ? AND permission_id = ?', [
+            'profilePost',
+            'tckDRL_profilePostComment'
+        ]);
+
+        // now we change the value of old permission group id to "profilePost" from "profilePostPermissions"
+        // to make sure on upgrade the permissions set by the administrator is set
+        $quotedPermissionIds = $db->quote([
+            'tckDailyReactionLimit',
+            'tckDRL_profilePostComment'
+        ]);
+
+        $db->update('xf_permission_entry', [
+            'permission_group_id' => 'profilePost'
+        ], "permission_id IN ({$quotedPermissionIds}) AND permission_group_id = ?", 'profilePostPermissions');
+    }
+
     /**
      * @param int|null $previousVersion
      *
