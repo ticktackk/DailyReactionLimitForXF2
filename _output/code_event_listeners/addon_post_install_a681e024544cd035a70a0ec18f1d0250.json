@@ -1,6 +1,6 @@
 {
     "event_id": "addon_post_install",
-    "execute_order": 10,
+    "execute_order": 7642,
     "callback_class": "TickTackk\\DailyReactionLimit\\Listener",
     "callback_method": "addonPostInstall",
     "active": true,

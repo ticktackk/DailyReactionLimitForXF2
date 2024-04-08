@@ -1,6 +1,6 @@
 {
     "from_class": "XF\\ControllerPlugin\\Reaction",
     "to_class": "TickTackk\\DailyReactionLimit\\XF\\ControllerPlugin\\Reaction",
-    "execute_order": 10,
+    "execute_order": 7642,
     "active": true
 }
