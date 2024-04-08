@@ -7,33 +7,31 @@ This add-on allows to limit the amount of reactions user can give daily.
 [/LIST]
 [HEADING=1]Options[/HEADING]
 [HEADING=3]Daily Reaction Limit[/HEADING]
-[TABLE]
+[TABLE width="100%"]
 [TR]
-[TH]Name[/TH]
-[TH]Description[/TH]
+[th]Name[/th][th]Description[/th]
 [/TR]
 [TR]
-[TD]Reaction limit type[/TD]
-[TD]Select the type of reaction limit that will be provided.[/TD]
+[td]Reaction limit type[/td][td]Select the type of reaction limit that will be provided.[/td]
 [/TR]
 [/TABLE]
 [HEADING=1]Permissions[/HEADING]
-[HEADING=3]XFMG: Comment permissions[/HEADING]
+[HEADING=3]General permissions[/HEADING]
 [LIST]
-[*]Daily comment reaction limit
+[*]Daily reaction limit
+[/LIST]
+[HEADING=3]Forum permissions[/HEADING]
+[LIST]
+[*]Daily post reaction limit
+[/LIST]
+[HEADING=3]Conversation permissions[/HEADING]
+[LIST]
+[*]Daily message reaction limit
 [/LIST]
 [HEADING=3]Profile post permissions[/HEADING]
 [LIST]
 [*]Daily profile post reaction limit
 [*]Daily profile post comment reaction limit
-[/LIST]
-[HEADING=3]XFMG: Album permissions[/HEADING]
-[LIST]
-[*]Daily album reaction limit
-[/LIST]
-[HEADING=3]Forum permissions[/HEADING]
-[LIST]
-[*]Daily post reaction limit
 [/LIST]
 [HEADING=3]Resource permissions[/HEADING]
 [LIST]
@@ -43,13 +41,13 @@ This add-on allows to limit the amount of reactions user can give daily.
 [LIST]
 [*]Daily media reaction limit
 [/LIST]
-[HEADING=3]Conversation permissions[/HEADING]
+[HEADING=3]XFMG: Album permissions[/HEADING]
 [LIST]
-[*]Daily message reaction limit
+[*]Daily album reaction limit
 [/LIST]
-[HEADING=3]General permissions[/HEADING]
+[HEADING=3]XFMG: Comment permissions[/HEADING]
 [LIST]
-[*]Daily reaction limit
+[*]Daily comment reaction limit
 [/LIST]
 [HEADING=1]License[/HEADING]
 This project is licensed under the MIT License - see the [URL='https://github.com/ticktackk/DailyReactionLimitForXF2/blob/master/LICENSE.md']LICENSE.md[/URL] file for details.

@@ -81,7 +81,7 @@ class User extends XFCP_User
                     return 0;
                 }
 
-                return $commentContainer->hasPermission('tckDRL_xfmgComment');
+                return $commentContainer->hasPermission('tckDRL_comment');
 
             default:
                 return -1; // allow all

@@ -1,6 +1,6 @@
 {
     "from_class": "XF\\Entity\\User",
     "to_class": "TickTackk\\DailyReactionLimit\\XF\\Entity\\User",
-    "execute_order": 10,
+    "execute_order": 7642,
     "active": true
 }

@@ -2,15 +2,13 @@
     "legacy_addon_id": "",
     "title": "Daily Reaction Limit",
     "description": "This add-on allows to limit the amount of reactions user can give daily.",
-    "version_id": 1000470,
-    "version_string": "1.0.4",
+    "version_id": 1000570,
+    "version_string": "1.0.5",
     "dev": "TickTackk",
-    "dev_url": "https://xenforo.com/community/members/ticktackk.90375/",
+    "dev_url": "https://xenforo.com/community/members/90375/",
     "faq_url": "",
-    "support_url": "https://github.com/ticktackk/DailyReactionLimitForXF2/issues",
-    "extra_urls": {
-        "Twitter": "https://twitter.com/t1cktackk"
-    },
+    "support_url": "https://xenforo.com/community/threads/178079/",
+    "extra_urls": [],
     "require": {
         "XF": [
             2010770,

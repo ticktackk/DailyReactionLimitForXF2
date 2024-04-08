@@ -1,6 +1,11 @@
 CHANGELOG
 ==========================
 
+## 1.0.5 (`1000570`)
+
+- **Fix:** Switching to "Content" reaction limit type causes XFMG comment reaction to be completely disabled (#11)
+- **Fix:** Execution order of code event listener, class extensions and template modifications does not match that of resource ID (#12)
+
 ## 1.0.4 (`1000470`)
 
 - **Fix:** Switching to "Content" reaction limit type causes resource reaction to be completely disabled (#9)

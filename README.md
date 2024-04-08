@@ -23,22 +23,22 @@ Options
 Permissions
 -----------
 
-#### XFMG: Comment permissions
+#### General permissions
 
-- Daily comment reaction limit
+- Daily reaction limit
+
+#### Forum permissions
+
+- Daily post reaction limit
+
+#### Conversation permissions
+
+- Daily message reaction limit
 
 #### Profile post permissions
 
 - Daily profile post reaction limit
 - Daily profile post comment reaction limit
-
-#### XFMG: Album permissions
-
-- Daily album reaction limit
-
-#### Forum permissions
-
-- Daily post reaction limit
 
 #### Resource permissions
 
@@ -48,13 +48,13 @@ Permissions
 
 - Daily media reaction limit
 
-#### Conversation permissions
+#### XFMG: Album permissions
 
-- Daily message reaction limit
+- Daily album reaction limit
 
-#### General permissions
+#### XFMG: Comment permissions
 
-- Daily reaction limit
+- Daily comment reaction limit
 
 License
 -------
